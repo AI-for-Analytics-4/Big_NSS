@@ -1,0 +1,4 @@
+# The raw data file is 85 MB, so it is not committed. See data/README.md for where to get it.
+data/big_nss.csv
+data/*.gz
+.DS_Store
