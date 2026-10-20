@@ -1,0 +1,10 @@
+step,rows,trucks,derate rows,what changed
+Raw file,1187335,1122,1195,
+0a. Remove exact duplicates,1058004,1122,1183,"129,331 duplicate rows removed"
+0b. Impossible values set to NaN,1058004,1122,1183,"176 oil temperatures and 2,722 zero counters"
+0c. Drop clock-error timestamps,1057665,1116,1178,339 rows dated outside 2015–2020
+2a. Drop rows with all 5 measurements null,530627,1096,555,"527,038 rows removed"
+2b. Drop trucks missing 2+ whole Ltd columns,530623,1092,555,4 trucks removed
+2c. Predict missing Ltd values from known ones,530623,1092,555,"9,815 values filled"
+2d. Interpolate remaining Ltd nulls,530508,1092,555,"1,242 values filled; 115 edge rows dropped"
+2e. Predict missing oil readings,530508,1092,555,"4,114 values filled"
