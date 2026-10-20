@@ -1,0 +1,7 @@
+# Python 3.9 or newer. Versions used to produce the saved notebook outputs are noted.
+pandas>=2.0          # outputs produced with pandas 3.0.2; also tested with pandas 2.3.3
+numpy>=1.24
+scikit-learn==1.6.1  # same version as the Mac this was submitted from
+scipy>=1.10
+matplotlib>=3.7
+jupyter
